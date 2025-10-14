@@ -1,30 +1,32 @@
 package Basic_logical_programs;
 import java.util.Scanner;
-public class Fibonacci_series {
+public class Fibonacci_series_2 {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		int n;
+		
+		Scanner scan=new Scanner(System.in);
+		
+		int first, second, next, n;
+		
 		n=scan.nextInt();
 		
-		
-		int next;
-		
-		int first=0;
-		int second=1;
+		first=0;
+		second=1;
 		
 		System.out.print("Fibonacci series = "+first+", "+second);
-		for(int i=2;i<=n;i++)
+		
+		int i=2;
+		while(i<=n)
 		{
-			
 			next=first+second;
 			System.out.print(", "+next);
 			
 			first=second;
 			second=next;
-		}
 			
-		scan.close();
+			i++;
+		}
+
 	}
 
 }
