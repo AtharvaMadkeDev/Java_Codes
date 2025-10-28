@@ -22,6 +22,7 @@ class Student
 	String name;
 	static int namecount=0;  //static variable  (Accessible / shared within all the instances of the same class and shares the same copy of that variable
 	
+	
 	public Student(String name)  //constructor with parameter or parameters
 	{
 		this.name=name;
@@ -35,3 +36,5 @@ class Student
 		System.out.println();
 	}
 }
+
+
