@@ -1,30 +1,34 @@
 package Parameters_and_return_type_logical_programs;
 import java.util.Scanner;
-public class Addition_of_two_numbers {
+public class Greater_number {
 
 	public static void main(String[] args) {
+			
 		Scanner sc = new Scanner(System.in);
 		
-		Addition add = new Addition();
-		
-		System.out.println("Enter the two numbers : ");
+		Greater greater = new Greater();
+		System.out.println("Enter two numbers : ");
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		int result = add.display(a, b);
 		
-		System.out.println("Sum : "+result);
+		int result = greater.display(a, b);
+		System.out.println("Greater number : "+result);
 		sc.close();
-		
 	}
 
 }
 
-class Addition
+class Greater
 {
-	
 	public int display(int a, int b)
 	{
-		int sum = a+b;
-		return sum;
+		if(a>b) 
+		{
+			return a;
+		}
+		else
+		{
+			return b;
+		}
 	}
 }
