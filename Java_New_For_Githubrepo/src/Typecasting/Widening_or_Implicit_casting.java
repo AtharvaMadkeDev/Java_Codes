@@ -10,3 +10,5 @@ public class Widening_or_Implicit_casting {
 	}
 
 }
+
+//No data loss occurs in Implicit casting
