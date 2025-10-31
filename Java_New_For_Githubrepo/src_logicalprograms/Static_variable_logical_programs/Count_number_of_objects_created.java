@@ -17,8 +17,8 @@ public class Count_number_of_objects_created {
 		System.out.println();
 		
 		
-		objectCounter newdisp = new objectCounter();
-		System.out.println("Total objects created : "+newdisp.counter);
+		//objectCounter newdisp = new objectCounter();
+		System.out.println("Total objects created : "+objectCounter.counter);
 	}
 
 }
