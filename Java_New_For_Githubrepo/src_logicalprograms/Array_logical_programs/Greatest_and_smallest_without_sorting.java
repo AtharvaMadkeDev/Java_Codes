@@ -1,24 +1,35 @@
 package Array_logical_programs;
-
+import java.util.Scanner;
 public class Greatest_and_smallest_without_sorting {
 
 	public static void main(String[] args) {
 		
-		int greater=0;
-		int smaller=0;
+		Scanner scan = new Scanner(System.in);
 		
-//		for(int j=0; j<arr.length-1; j++)
-//		{
-//			if(arr[j]>arr[j+1])
-//			{
-//				greater=arr[j];
-//			}
-//			
-//			else if(arr[j]<arr[j-1])
-//			{
-//				 smaller=arr[j];
-//			}
-//		}
+		int arr[] = new int[5];
+		
+		
+		for(int i=0; i<arr.length; i++)
+		{
+			arr[i] = scan.nextInt();
+		}
+		
+		int greater=arr[0];
+		int smaller=arr[0];
+		
+		
+		for(int j=1; j<arr.length; j++)
+		{
+			if(arr[j]>greater)
+			{
+				greater=arr[j];
+			}
+			
+			if(arr[j]<smaller)
+			{
+				 smaller=arr[j];
+			}
+		}
 		
 		
 		
