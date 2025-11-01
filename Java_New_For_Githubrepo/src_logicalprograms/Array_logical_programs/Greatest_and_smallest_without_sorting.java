@@ -8,6 +8,7 @@ public class Greatest_and_smallest_without_sorting {
 		
 		int arr[] = new int[5];
 		
+		System.out.println("Enter any 5 integers");
 		
 		for(int i=0; i<arr.length; i++)
 		{
@@ -35,7 +36,8 @@ public class Greatest_and_smallest_without_sorting {
 		
 		System.out.println("Greater number = "+greater);
 		System.out.println("Smaller number = "+smaller);
-
+		
+		scan.close();
 	}
 
 }
