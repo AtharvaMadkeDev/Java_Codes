@@ -34,6 +34,7 @@ public class Sum_of_Matrix_3_x_3 {
 		
 		System.out.println();
 		System.out.println("Sum of the matrix = "+sum);
+		scan.close();
 		
 	}
 
