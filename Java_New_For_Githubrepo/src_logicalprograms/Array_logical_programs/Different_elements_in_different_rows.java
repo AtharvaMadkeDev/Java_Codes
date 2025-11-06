@@ -23,6 +23,7 @@ public class Different_elements_in_different_rows {
 		}
 		
 		System.out.println("The elements u have entered are :");
+		System.out.println();
 		
 		for(int i=0; i<arr.length; i++)
 		{
@@ -33,6 +34,8 @@ public class Different_elements_in_different_rows {
 			}
 			System.out.println();
 		}
+		
+		scan.close();
 	}
 
 }
