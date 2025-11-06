@@ -53,7 +53,8 @@ public class Armstrong_number_raw_using_forloop {
 			System.out.println("It is not an Armstrong number");
 
 		}
-
+		
+		scan.close();
 	}
 
 }
