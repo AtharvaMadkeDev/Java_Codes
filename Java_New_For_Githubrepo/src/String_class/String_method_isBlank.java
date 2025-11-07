@@ -4,7 +4,7 @@ public class String_method_isBlank {
 
 	public static void main(String[] args) {
 		
-		// .isBlank() => It checks whether the string is blank or not. It counts the blank spaces as well and considers them as blank. 
+		// .isBlank() => It checks whether the string is blank or not. It does not count the blank spaces and considers them as blank. 
 		
 		String str = "   ";
 		System.out.println(str.isBlank());
