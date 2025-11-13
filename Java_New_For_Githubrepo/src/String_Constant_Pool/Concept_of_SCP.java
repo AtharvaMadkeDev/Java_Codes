@@ -13,10 +13,10 @@ public class Concept_of_SCP {
 		
 		
 		String str1 = new String("Abc");
-		String str2 = new String("Abc");;
+		String str2 = new String("Abc");
 		
 		//Here, the 'str1' and 'str2' are declared as a String Object. 
-		//Therefore the reference of 'str2' and 'str1' will be different even of their contents are same. 
+		//Therefore the reference of 'str2' and 'str1' will be different even if their contents are same. 
 		
 		System.out.println(str1==str2);		//The reference of 'str2' will not point to the reference of 'str1' because of the 'new' keyword, i.e both are different objects and therefore, the answer is False
 	}
