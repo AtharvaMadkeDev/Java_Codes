@@ -4,7 +4,7 @@ public class String_buffer {
 
 	public static void main(String[] args) {
 		
-		//StringBuffer is a mutable class which works with the string
+		//StringBuffer is a mutable and thread safe class which works with the string
 		
 		//Syntax :
 		
