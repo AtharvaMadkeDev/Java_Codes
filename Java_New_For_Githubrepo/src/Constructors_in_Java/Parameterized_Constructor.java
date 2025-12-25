@@ -19,9 +19,9 @@ class One_3
 {
 	int id;
 	
-	public One_3(int id)	//Constructor taking parameters
+	public One_3(int i)	//Constructor taking parameters
 	{
-		this.id=id;
+		id=i;
 	}
 	
 	public void show()

@@ -19,7 +19,7 @@ class One_2
 	int id;
 	public One_2()		//Parameter-less constructor
 	{
-		this.id=100;
+		id=100;
 	}
 	
 	public void show()
