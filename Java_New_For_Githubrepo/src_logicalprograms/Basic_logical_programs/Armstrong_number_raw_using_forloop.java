@@ -6,7 +6,7 @@ public class Armstrong_number_raw_using_forloop {
 		
 		Scanner scan=new Scanner(System.in);
 		
-		int num, sum=0, d, counter ;
+		int num, sum=0, d, counter;
 		
 		System.out.println("Please Enter a number : ");
 		
@@ -16,13 +16,13 @@ public class Armstrong_number_raw_using_forloop {
 		
 		counter=0;
 		
-		for(int j=temp;j!=0;j=j/10)
+		for(int j=temp; j!=0; j=j/10)
 		{
 			counter++;
 		}
 		
 		
-		for(int i=temp;i!=0;i=i/10)
+		for(int i=temp; i!=0; i=i/10)
 		{
 			d=i%10;
 
@@ -39,17 +39,20 @@ public class Armstrong_number_raw_using_forloop {
 				
 		}
 		
+		System.out.println();
 		System.out.println("Number of digits = "+counter);
 		System.out.println("Sum of digits = " +sum);
 
 		
 		if(sum==num)
 		{
+			System.out.println();
 			System.out.println("It is an Armstrong number");
 		}
 		
 		else
 		{
+			System.out.println();
 			System.out.println("It is not an Armstrong number");
 
 		}
