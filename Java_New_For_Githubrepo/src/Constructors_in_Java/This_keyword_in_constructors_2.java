@@ -21,14 +21,12 @@ class ThisKeyword
 	
 	public ThisKeyword()
 	{
-		
 		System.out.println("From the constructor with no parameters");
 	}
 	
 	public ThisKeyword(int id, String name)
 	{
 		this();			//Jumping to the constructor with no parameters.
-		
 		this.id=id;
 		this.name=name;
 		
