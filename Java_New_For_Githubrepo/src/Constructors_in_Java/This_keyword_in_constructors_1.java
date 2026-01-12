@@ -24,8 +24,8 @@ class This_keyword
 	
 	public This_keyword(int id, String name)
 	{
-		this.id=id;
-		this.name=name;
+		this.id=id;				//Setting values of instance variables using "this" keyword.
+		this.name=name;			//Setting values of instance variables using "this" keyword.
 	}
 	
 	public void show()
