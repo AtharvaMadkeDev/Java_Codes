@@ -8,6 +8,7 @@ public class This_keyword_in_constructors_2 {
 		//Syntax for jumping from constructor to constructor
 		
 		ThisKeyword tk = new ThisKeyword(1, "Atharva");
+		tk.show();
 		
 
 	}
@@ -31,5 +32,11 @@ class ThisKeyword
 		this.name=name;
 		
 		System.out.println("From the constructor with parameters");
+	}
+	
+	public void show()
+	{
+		System.out.println("ID :"+id);
+		System.out.println("Name :"+name);
 	}
 }
