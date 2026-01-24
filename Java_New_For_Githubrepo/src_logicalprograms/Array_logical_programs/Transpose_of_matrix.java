@@ -6,7 +6,7 @@ public class Transpose_of_matrix {
 		
 		int arr[][] = new int[3][3];
 		int counter=0;
-		int temp = 0;
+		//int temp = 0;
 		
 		for(int i=0; i<arr.length; i++)
 		{
@@ -38,10 +38,6 @@ public class Transpose_of_matrix {
 			}
 			System.out.println();
 		}
-		
-		
-		
-		
 		
 	}
 
