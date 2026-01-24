@@ -51,6 +51,8 @@ public class Armstrong_number_trial {
     	  {
     		  System.out.println("armstrong");
     	  }
+    	  
+    	  scan.close();
 }
 
 }

@@ -51,6 +51,8 @@ public class Armstrong_number_raw_using_whileloop {
 		{
 			System.out.println("It is not an Armstrong Number");
 		}
+		
+		scan.close();
 	}
 
 }
