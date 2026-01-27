@@ -5,7 +5,7 @@ public class Parameterized_this {
 	public static void main(String[] args) {
 		
 		//We can give parameters inside this() to jump on the specific parameterized constructor
-		//Here, when we called the constructor with "address" parameter, the this() is first passed to the constructor having "name" and "id", hence setting the values for "id" and "name" first and then the "address".
+		//Here, when we called the constructor with "address" parameter , the this() is first passed to the constructor having "name" and "id", hence setting the values for "id" and "name" first and then the "address".
 		
 		p_this p = new p_this("Near Babar Dairy");
 		p.show();
